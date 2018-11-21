@@ -9,6 +9,10 @@
            revision="refs/tags/LA.UM.7.6.r1-03400-89xx.0"
            sync-j="4" />
 
+<remote    name="sacred"
+           fetch="https://github.com/SacredOS-CAF"
+           revision="9.0" />
+
 <remote    name="derp"
            fetch="https://github.com/Derp-CAF"
            revision="p" />
