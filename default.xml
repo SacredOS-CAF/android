@@ -6,7 +6,7 @@
            review="codeaurora.org"/>
   
 <default   remote="caf"
-           revision="refs/tags/LA.UM.7.6.r1-03600-89xx.0"
+           revision="refs/tags/LA.UM.7.6.r1-03700-89xx.0"
            sync-j="4" />
 
 <remote    name="sacred"
@@ -99,6 +99,7 @@
   <project groups="p-fs-release,pdk" name="platform/external/apache-http" path="external/apache-http" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/apache-xml" path="external/apache-xml" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/archive-patcher" path="external/archive-patcher" revision="ks-aosp.lnx.1.0.r5-rel"/>
+  <project groups="qcom-LA.UM.7.3-incoming" name="platform/external/arm-optimized-routines" path="external/arm-optimized-routines" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="p-fs-release,pdk-fs" name="platform/external/autotest" path="external/autotest" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/avb" path="external/avb" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/bart" path="external/bart" revision="ks-aosp.lnx.1.0.r5-rel"/>
