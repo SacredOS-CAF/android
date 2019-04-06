@@ -23,7 +23,6 @@
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="kernel/msm-3.18" />
   <remove-project name="platform/vendor/qcom/wlan" />
-  <remove-project name="platform/vendor/google_paintbox" />
   <remove-project name="platform/vendor/google_easel" />
   <remove-project name="platform/packages/apps/Terminal" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -56,7 +55,6 @@
   <remove-project name="device/generic/common" />
   <remove-project name="device/generic/goldfish" />
   <remove-project name="device/generic/goldfish-opengl" />
-  <remove-project name="device/generic/lionhead" />
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="device/generic/mini-emulator-x86" />
@@ -73,7 +71,6 @@
   <remove-project name="device/google/taimen" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/google/wahoo" />
-  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/sample" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/qcom/audio" />
