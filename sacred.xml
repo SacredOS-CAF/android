@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="bionic" path="bionic" remote="sacred" />
-  <project name="bootable_recovery" path="bootable/recovery" remote="derp" />
   <project name="build" path="build/make" remote="sacred" >
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
@@ -11,55 +10,50 @@
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
   </project>
-  <project name="build_kati" path="build/kati" remote="derp" />
   <project name="build_soong" path="build/soong" remote="sacred">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project name="development" path="development" remote="derp" />
+<!--  <project name="development" path="development" remote="derp" /> -->
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="sacred" />
-  <project name="device_sacred_sepolicy" path="device/sacred/sepolicy" remote="sacred" />
+<!--  <project name="device_sacred_sepolicy" path="device/sacred/sepolicy" remote="sacred" />
   <project name="external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="derp" />
-  <project name="external_e2fsprogs" path="external/e2fsprogs" remote="derp" />
-  <project name="external_elfutils" path="external/elfutils" remote="derp" />
-  <project name="external_libtextclassifier" path="external/libtextclassifier" remote="derp" />
-  <project name="external_selinux" path="external/selinux" remote="derp" />
+  <project name="external_selinux" path="external/selinux" remote="derp" /> -->
   <project name="frameworks_av" path="frameworks/av" remote="sacred" />
   <project name="frameworks_base" path="frameworks/base" remote="sacred" />
   <project name="frameworks_native" path="frameworks/native" remote="sacred" />
-  <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="derp" />
-  <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="derp" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media/msm8996" remote="sacred" revision="9.0-8996" />
-  <project name="hardware_qcom_display" path="hardware/qcom/display/msm8996" remote="sacred" revision="9.0-8996" />
-  <project name="hardware_qcom_audio" path="hardware/qcom/audio/msm8996" remote="sacred" revision="9.0-8996" />
-  <project name="hardware_interfaces" path="hardware/interfaces" remote="pe" />
-  <project name="hardware_sacred_interfaces" path="hardware/sacred/interfaces" remote="sacred" />
-  <project name="hardware_libhardware" path="hardware/libhardware" remote="derp" />
-  <project name="hardware_ril" path="hardware/ril" remote="derp" />
+<!--  <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="derp" />
+  <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="derp" /> -->
+  <project name="hardware_qcom_media" path="hardware/qcom/media/msm8998" remote="sacred" revision="q-8998" />
+  <project name="hardware_qcom_display" path="hardware/qcom/display/msm8998" remote="sacred" revision="q-8998" />
+  <project name="hardware_qcom_audio" path="hardware/qcom/audio/msm8998" remote="sacred" revision="q-8998" />
+<!--  <project name="hardware_interfaces" path="hardware/interfaces" remote="derp" />
+  <project name="hardware_ril" path="hardware/ril" remote="derp" /> -->
   <project name="manifest" path="manifest" remote="sacred" />
-  <project name="packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="derp" />
+<!--  <project name="packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="derp" /> -->
   <project name="packages_apps_CelestialWays" path="packages/apps/CelestialWays" remote="sacred" />
-  <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="pe" />
+<!--  <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="derp" /> -->
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="sacred" />
-  <project name="prebuilts_build-tools" path="prebuilts/build-tools" remote="pe" clone-depth="1" />
-  <project name="system_bt" path="system/bt" remote="derp" />
+<!--  <project name="system_bt" path="system/bt" remote="derp" /> -->
   <project name="system_core" path="system/core" remote="sacred" />
-  <project name="system_security" path="system/security" remote="pe" />
+<!--  <project name="system_extras" path="system/extras" remote="derp" />
+  <project name="system_security" path="system/security" remote="derp" />
   <project name="system_sepolicy" path="system/sepolicy" remote="derp" />
-  <project name="system_tpm" path="system/tpm" remote="derp" />
   <project name="system_update_engine" path="system/update_engine" remote="derp" />
-  <project name="system_vold" path="system/vold" remote="derp" />
+  <project name="system_vold" path="system/vold" remote="derp" /> -->
   <project name="vendor_sacred" path="vendor/sacred" remote="sacred" />
-  <project name="vendor_qcom_opensource_commonsys_bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="pe"/>
+<!--  <project name="vendor_codeaurora_commonsys_telephony" path="vendor/codeaurora/commonsys/telephony" remote="derp"/>
+  <project name="vendor_qcom_opensource_commonsys_bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="derp"/>
   <project name="vendor_qcom_opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="derp">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
-  </project>
-  <project name="vendor_qcom_opensource_commonsys_cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" remote="derp" />
+  </project> -->
+  <project name="vendor_qcom-opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="sacred" />
+<!--  <project name="vendor_qcom_opensource_commonsys_cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" remote="derp" />
   <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="derp" />
   <project name="vendor_qcom_opensource_commonsys_dataservices" path="vendor/qcom/opensource/commonsys/dataservices" remote="derp" />
   <project name="vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="derp" />
-  <project name="vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="sacred" />
-  <project name="vendor_qcom_opensource_fm" path="vendor/qcom/opensource/fm" remote="derp" />
-  <project name="vendor_qcom_opensource_commonsys_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="derp" />
-  <project name="device_qcom_common" path="device/qcom/common" remote="derp"/>
+  <project name="vendor_qcom_opensource_commonsys_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="derp" /> -->
+  <project name="android_prebuilts_r8" path="prebuilts/r8" remote="pa" />
+  <project name="android_prebuilts_openssl" path="prebuilts/openssl" remote="pa" />
+  <project name="LineageOS/android_prebuilts_tools-lineage" path="prebuilts/tools-sacred" remote="github" revision="lineage-17.1" />
 </manifest>
